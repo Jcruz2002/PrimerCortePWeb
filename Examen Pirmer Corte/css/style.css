@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@200&display=swap');
+
+:root {
+    --primary: #9f7cde;
+    --ligth: #ffffff;
+    --grey: #efefef;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.BT{
+    margin-left: 10px;
+    color: var(--ligth);
+}
+
+.BT:link{
+    text-decoration: none;
+}
+
+.BT:hover { 
+    color: white;
+    background: #b098dd;
+    border-radius: 6px ;
+}
+
+.nav{
+    width: 500px;
+}
+
+.btnn{
+    background: rgb(247, 244, 244);  
+}
+.navbar-search{
+    width: 400px;
+}
+
+.topbar .navbar-search {
+    width: 25rem;  
+  }
+
+.topbar .navbar-search input {
+    font-size: 0.85rem;
+    height: auto;
+}
+.btnB{
+    background: rgba(159,124,222,255);
+    border-color: rgba(159,124,222,255);
+}
+
+.btnB:hover{
+    background: #9f7cde;
+    border-color: #9f7cde;
+}
+.navbar{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.list{
+    width: 330px;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+i{
+    margin-right: 5px;
+}
+
+.bg-primary {background-color: var(--primary) !important;}
+.bg-light {background-color: var(--ligth) !important;}
+
+
+body {
+    overflow: hidden;
+    font-weight: 300;
+    color: var(--primary);
+}
+
+
+#sidebar-container{
+    min-height: 100vh;
+}
+
+
+#sidebar-container .logo{
+    padding: .875rem 1.25rem;
+
+}
+
+#sidebar-container .Menu {
+    width: 270px; 
+}
+
+.btn-search{
+    right: 5px;
+}
+
+h4{
+    text-align: center;
+}
+
+.Inicio {
+    width: 100%;
+    height: 100%;
+}
+
+.Presentacion {
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor{
+    width: 100%;
+    height: 100%;
+}
+
+.nav__link{
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 11px 0;
+    text-decoration: none;
+}
+
+.nav__link:link{
+    text-decoration: none;
+}
+
+.nav__link:hover{
+    color: white;
+}
+
+.nav__link--inside{
+    border-radius: 6px ;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.nav__link--inside:hover{
+    text-decoration: none;
+}
+
+
+.list__item{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.list__item--click{
+    cursor: pointer;
+}
+
+.list__button{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    width: 70%;
+    margin-left: 25px;
+}
+
+.arrow .list__arrow{
+    transform: rotate(90deg);
+}
+
+.list__arrow{
+    margin-left: auto;
+    transition: transform .3s;
+}
+
+.list__show{
+    color: black;
+    width: 70%;
+    margin-left: 20px;
+    background: #b098dd;
+    border-radius: 10px;
+    list-style: none;
+    transition: height .4s;
+    height: 0;
+}

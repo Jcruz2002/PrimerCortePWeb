@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+body{
+    margin-top: 40px;
+    padding-left: 40px ;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 700px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+  
+.content-table thead tr {
+    background-color: #9f7cde;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+  
+.content-table th,
+.content-table td {
+ padding: 12px 15px;
+}
+  
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    color: black
+}
+  
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+  
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #9f7cde;
+}
+  
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #9f7cde;
+}
+
+.btnA{
+    margin-top: 12px ;
+    background: #9f7cde;
+    border: #9f7cde;
+}
+
+.btnA{
+    color:white;
+}
+.btnA:hover{
+    background: #9f7cde;
+    color:white;
+}
+.btnA:active{
+    background: #9f7cde;
+}
+
+.btnA:visited{
+    background: #9f7cde;
+}
+.btnG{
+    background: #9f7cde;
+    border: #9f7cde;
+    color: white;
+}
+
+
+
+
+.table {
+    margin-top:25px;
+}
